@@ -8,6 +8,14 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+
 .name-highlight{
     color: orange;
 }
@@ -33,6 +41,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -41,5 +50,25 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 700;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-experience{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
 
